@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#header{
+    width: 930px;
+    margin: 10px auto;
+}
+#tmain{
+    width: 930px;
+    clear: both;
+    margin: 0px auto;
+}
+#leftpart{
+    margin: 10px;
+    width: 400px;
+}
+input {
+    border-radius: 25px;
+    border-style: none;
+    background: lightskyblue;
+    padding: 8px 10px;
+    float: left;
+}
+h1 {
+    letter-spacing: -3px;
+    margin: 0px;
+    font-size: 25px;
+    width: 260px;
+    margin: 0px;
+}
+table {
+    float: bottom;
+}
+tr,td{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
