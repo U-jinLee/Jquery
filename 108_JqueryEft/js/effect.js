@@ -1,7 +1,9 @@
 $(document).ready(function(){
     /*effect about show, hide and toggle*/
     $("#default").on("click",function(){
-        $("p").hide("2000","linear");/*From the front duration, easing, callback parameter is option */
+        $("p").hide("2000","linear",function(){
+        alert("Event executed successfully")
+        });/*From the front duration, easing, callback parameter is option */
     })
     $("#default").on("mouseleave",function(){
         $("p").show("2000");
